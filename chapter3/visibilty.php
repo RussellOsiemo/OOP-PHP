@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php 
-    require 'FileReader.php';
-    $filereader = new FileReader();
-     echo $filereader->getData();
+    require 'CsvFileReader.php';
+    $csvfilereader = new CsvFileReader();
+     echo $csvfilereader->getData();
     ?>
 </body>
 </html>
