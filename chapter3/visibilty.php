@@ -10,7 +10,7 @@
     <?php 
     require 'FileReader.php';
     $filereader = new FileReader();
-     echo $filereader->data;
+     echo $filereader->getData();
     ?>
 </body>
 </html>
