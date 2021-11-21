@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visiblity</title>
+    <title>Document</title>
 </head>
 <body>
     <?php
-    require 'FileReader.php'; 
-    require 'CsvFileReader.php';
-    $filereader = new FileReader();
-    //  echo $csvfilereader->getData();
+    require 'bid.php';
+
+    $bid = new Bid();
+    $bid->setBidAmount(400);
+    echo"Bid amount is ". $bid->getBidAmount();
     ?>
 </body>
 </html>
